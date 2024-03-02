@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.customText {
+  @apply text-base font-NotoSans-Regular leading-6;
+  /* 추가적인 스타일을 필요에 따라 적용할 수 있습니다. */
+}
+
+.customBoldText {
+  @apply text-lg font-NotoSans-Bold leading-7;
+  /* 추가적인 스타일을 필요에 따라 적용할 수 있습니다. */
+}
